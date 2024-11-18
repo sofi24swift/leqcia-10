@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
+h1 {
+    color: brown;
+    font-size: 38px;
+    text-decoration: underline;
+}
+/*shesruldeba mashin roca ekranis zoma iqneba minimum 1200 px*/
+@media screen and (min-width:1200px) and (max-width:1500px) {
+    h1{
+        font-size: 48px;
+    }
+}
+/*shesruldeba mashin roca ekranis zoma iqneba maximum 500 px*/
+@media only screen and (max-width:500px) {
+    h1 {
+        color: blue;
+    }
+
+}
+@media only screen and (max-width:1000px) {
+    h1{
+       color: red;
+    }
+}
+
+    
